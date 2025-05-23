@@ -1,2 +1,16 @@
 # Weather-forecast-App-
-Real-time weather data &amp; 5-day forecasts using OpenWeatherMap API. Features temperature conversion (°C/°F), UV index, and responsive design. Built with HTML, CSS, and JavaScript.  Key points covered in just 3 lines:  Core functionality  Main features  Tech stack
+A professional and responsive web application that displays current weather conditions and 5-day forecasts for any location worldwide.
+Key Features:
+✔ Real-time weather data from OpenWeatherMap API  
+✔ Current conditions with temperature, humidity, wind speed
+✔ 5-day forecast with min/max temperatures  
+✔ UV Index with color-coded intensity levels  
+✔ Temperature unit conversion (°C/°F)  
+✔ Sunrise/sunset times  
+✔ Responsive design for all devices  
+
+Built With:
+- HTML5, CSS, JavaScript  
+- OpenWeatherMap API  
+- Modern async/await fetch pattern  
+- Clean, modular JavaScript architecture.
