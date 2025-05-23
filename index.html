@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="weather-input">
+      <div class="input-group">
+        <input type="text" id="userlocation" placeholder="Search for places" />
+        <select class="converter" id="converter">
+          <option value="°C" selected>°C</option>
+          <option value="°F">°F</option>
+        </select>
+        <i class="fa fa-search" id="search"></i>
+      </div>
+
+      <div class="weather-icon">
+        <h2 class="temperature">--</h2>
+        <div class="feelslike">Feels like: --</div>
+        <div class="description">Weather: --</div>
+        <hr />
+        <div class="date">Date: --</div>
+        <div class="city">City: --</div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="weather-output">
+      <h2 class="heading">Today's Highlight</h2>
+      <div class="Highlights">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <h3>Humidity</h3>
+          <h1 id="HValue">--%</h1>
+        </div>
+        <div class="windspeed">
+          <i class="fa-solid fa-wind"></i>
+          <h3>Wind Speed</h3>
+          <h1 id="WValue">-- km/h</h1>
+        </div>
+        <div class="sun">
+          <span>
+            <i class="fa-solid fa-sun"></i>
+            <p><span id="SRValue">--</span> Sunrise</p>
+          </span>
+          <span>
+            <i class="fa-regular fa-sun"></i>
+            <p><span id="SSValue">--</span> Sunset</p>
+          </span>
+        </div>
+        <div class="clouds">
+          <i class="fa-solid fa-cloud"></i>
+          <h3>Clouds</h3>
+          <h1 id="CValue">--%</h1>
+        </div>
+        <div class="uv-index">
+          <i class="fa-solid fa-sun-plant-wilt"></i>
+          <h3>UV Index</h3>
+          <h1 id="UVValue">--</h1>
+        </div>
+        <div class="pressure">
+          <i class="fa-solid fa-gauge-high"></i>
+          <h3>Pressure</h3>
+          <h1 id="PValue">-- hPa</h1>
+        </div>
+      </div>
+
+      <br />
+      <h2 class="heading">This Week</h2>
+      <div class="forecast" id="forecast">
+        <!-- Forecast data will appear here -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
